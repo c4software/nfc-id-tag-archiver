@@ -18,7 +18,7 @@
         name: 'toolbar',
         computed: {
             isHome(){
-                return this.$route.name === "home"
+                return this.$route.name == null || this.$route.name === "home"
             },
             toolbarColor() {
                 return this.isHome?"transparent":"primary"
