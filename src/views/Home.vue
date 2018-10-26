@@ -1,18 +1,22 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-container grid-list-md justify-center>
+      <v-layout row fill-height wrap>
+        <v-flex xs6>
+          <v-btn block large flat>NFC</v-btn>
+        </v-flex>
+        <v-flex xs6>
+          <v-btn block large flat>QRCode</v-btn>
+        </v-flex>
+        <v-flex xs12>
+            <v-btn flat block color="primary" to="/history">Historique</v-btn>
+        </v-flex>
+      </v-layout>
+  </v-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
-  components: {
-    HelloWorld
-  }
 }
 </script>
