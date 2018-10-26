@@ -1,16 +1,14 @@
 <template>
     <div>
-        <v-toolbar class="primary" clipped-left app dark>
-
+        <v-toolbar :class="toolbarColor" :flat="isHome" clipped-left app :dark="!isHome">
             <v-slide-x-transition mode="out-in">
-                    <v-toolbar-side-icon  dark v-if="!isHome" @click="back">
+                    <v-toolbar-side-icon  v-if="!isHome" @click="back">
                         <v-icon>arrow_back</v-icon>
                     </v-toolbar-side-icon>
                     <v-toolbar-title v-else>
                         Tag Archiver
                     </v-toolbar-title>
             </v-slide-x-transition>
-
         </v-toolbar>
     </div>
 </template>
@@ -21,6 +19,9 @@
         computed: {
             isHome(){
                 return this.$route.name === "home"
+            },
+            toolbarColor() {
+                return this.isHome?"transparent":"primary"
             }
         },
         methods: {
