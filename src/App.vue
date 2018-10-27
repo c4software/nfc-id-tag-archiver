@@ -2,9 +2,9 @@
     <v-app>
         <toolbar />
         <v-content>
-            <v-slide-y-transition mode="out-in">
+            <v-slide-x-transition mode="out-in">
                 <router-view/>
-            </v-slide-y-transition>
+            </v-slide-x-transition>
         </v-content>
     </v-app>
 </template>
