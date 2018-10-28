@@ -5,7 +5,7 @@
           <v-btn block large flat to="nfc">NFC</v-btn>
         </v-flex>
         <v-flex xs4>
-          <v-btn block large flat>QRCode</v-btn>
+          <v-btn block large flat to="qrcode">QRCode</v-btn>
         </v-flex>
         <v-flex xs4>
             <v-btn flat block color="primary" to="history">Historique</v-btn>
