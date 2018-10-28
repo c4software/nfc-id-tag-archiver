@@ -6,5 +6,9 @@
   "historyTitle": "History",
   "qrcode": {
     "scan": "Scan a QRcode"
+  },
+  "nfc": {
+    "waiting": "Waiting for a new tag",
+    "success": "The tag has been added to your history."
   }
 }
