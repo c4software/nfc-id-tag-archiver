@@ -20,15 +20,15 @@
 
 <script>
 export default {
-  name: 'home',
-}
+  name: "home"
+};
 </script>
 
 <style scoped>
-  .fixedBottom{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-  }
+.fixedBottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
 </style>
 

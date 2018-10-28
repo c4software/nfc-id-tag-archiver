@@ -5,14 +5,14 @@ import routes from './routes';
 Vue.use(Router);
 
 let router = new Router({
-  routes: routes,
-  scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    } else {
-      return {x: 0, y: 0}
+    routes: routes,
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) {
+            return savedPosition
+        } else {
+            return { x: 0, y: 0 }
+        }
     }
-  }
 });
 
 export default router
