@@ -1,20 +1,30 @@
 <template>
-  <v-container grid-list-md fill-height>
-      <v-layout align-center justify-center row fill-height>
-        <v-flex xs4>
+  <v-container grid-list-md fluid fill-height align-center justify-center> 
+    <div>
+      <v-layout row wrap>
+
+        <v-flex xs12 text-xs-center>
+          <v-icon size="120">nfc</v-icon>
+        </v-flex>
+
+        <v-flex xs6>
           <v-btn block large flat to="nfc">NFC</v-btn>
         </v-flex>
-        <v-flex xs4>
+
+        <v-flex xs6>
           <v-btn block large flat to="qrcode">QRCode</v-btn>
         </v-flex>
-        <v-flex xs4>
-            <v-btn flat block color="primary" to="history">Historique</v-btn>
-        </v-flex>
-      </v-layout>
 
-      <v-btn fab small flat class="fixedBottom">
-        <v-icon dark>settings</v-icon>
-      </v-btn>
+        <v-flex xs12>
+            <v-btn flat block to="history" color="primary">Historique</v-btn>
+        </v-flex>
+
+        <v-btn fab flat class="settingsAction">
+          <v-icon>settings</v-icon>
+        </v-btn>
+
+      </v-layout>
+    </div>
   </v-container>
 </template>
 
@@ -23,12 +33,3 @@ export default {
   name: "home"
 };
 </script>
-
-<style scoped>
-.fixedBottom {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
-</style>
-
