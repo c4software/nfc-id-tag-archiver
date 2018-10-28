@@ -1,0 +1,10 @@
+{
+  "appTitle": "Tag Archiver",
+  "nfcTitle": "Nfc",
+  "qrcodeTitle": "QRcode",
+  "settingsTitle": "Settings",
+  "historyTitle": "History",
+  "qrcode": {
+    "scan": "Scan a QRcode"
+  }
+}

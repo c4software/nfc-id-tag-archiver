@@ -8,15 +8,15 @@
         </v-flex>
 
         <v-flex xs6>
-          <v-btn block large flat to="nfc">NFC</v-btn>
+          <v-btn block large flat to="nfc">{{$t('nfcTitle')}}</v-btn>
         </v-flex>
 
         <v-flex xs6>
-          <v-btn block large flat to="qrcode">QRCode</v-btn>
+          <v-btn block large flat to="qrcode">{{$t('qrcodeTitle')}}</v-btn>
         </v-flex>
 
         <v-flex xs12>
-            <v-btn flat block to="history" color="primary">Historique</v-btn>
+            <v-btn flat block to="history" color="primary">{{$t('historyTitle')}}</v-btn>
         </v-flex>
 
         <v-btn fab flat class="settingsAction">

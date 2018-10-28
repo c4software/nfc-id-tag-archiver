@@ -6,7 +6,7 @@
                       <v-icon>arrow_back</v-icon>
                   </v-toolbar-side-icon>
                   <v-toolbar-title v-else class="center-title">
-                      Tag Archiver
+                      {{$t('appTitle')}}
                   </v-toolbar-title>
           </v-slide-y-transition>
       </v-toolbar>
