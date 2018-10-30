@@ -3,3 +3,11 @@
   right: 0;
   bottom: 0;
 }
+
+.bottomToast {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 0px !important;
+}

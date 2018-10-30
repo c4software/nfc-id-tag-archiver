@@ -5,7 +5,8 @@
   "settingsTitle": "Paramètres",
   "historyTitle": "Historique",
   "qrcode": {
-    "scan": "Scan a QRcode"
+    "scan": "Scan a QRCode",
+    "success": "The QRCode has been added to your history"
   },
   "nfc": {
     "waiting": "En attente de scan d'un nouveau tag",
