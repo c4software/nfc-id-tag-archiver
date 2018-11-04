@@ -12,23 +12,30 @@ export default {
   name: "History",
   data() {
     return {
-      scanSuccess: false
+      scanSuccess: false,
+      items: JSON.parse(localStorage.getItem("qrcodeScanHistory") || "[]")
     };
   },
   watch: {
-    scanSuccess(state) {
-      if (state) {
-        // If state success
-        setTimeout(() => {
-          // After delay reset the state to waiting new scan
-          this.scanSuccess = false;
-        }, 3000);
+    watch: {
+      items: function(values) {
+        localStorage.setItem("qrcodeScanHistory", JSON.stringify(values));
+      },
+      scanSuccess: function(state) {
+        if (state) {
+          setTimeout(() => {
+            this.scanSuccess = false;
+          }, 3000);
+        }
       }
     }
   },
   methods: {
-    doScan() {
-      this.scanSuccess = true;
+    doScan(data) {
+      if (data) {
+        this.items.push(data);
+        this.scanSuccess = true;
+      }
     }
   }
 };

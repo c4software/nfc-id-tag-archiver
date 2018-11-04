@@ -42,6 +42,13 @@ export default {
   watch: {
     items: function(values) {
       localStorage.setItem("nfcScanHistory", JSON.stringify(values));
+    },
+    scanSuccess: function(state) {
+      if (state) {
+        setTimeout(() => {
+          this.scanSuccess = false;
+        }, 3000);
+      }
     }
   },
   mounted() {
@@ -96,10 +103,6 @@ export default {
         let tagId = nfc.bytesToHexString(tag.id);
         this.items.push(tagId);
         this.scanSuccess = true;
-
-        setTimeout(() => {
-          this.scanSuccess = false;
-        }, 3000);
       }
     }
   }
