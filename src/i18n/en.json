@@ -9,7 +9,7 @@
     "success": "The QRCode has been added to your history"
   },
   "nfc": {
-    "waiting": "Waiting for a new tag",
+    "waiting": "Waiting for a tag",
     "success": "The tag has been added to your history."
   }
 }
