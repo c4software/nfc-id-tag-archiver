@@ -5,6 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "cordova_build": "npm run build && cd cordova_app && cordova build && cd ../",
+    "cordova_run": "npm run build && cd cordova_app && cordova run && cd ../",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

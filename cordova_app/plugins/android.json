@@ -1,0 +1,28 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    },
+    "phonegap-nfc": {
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    },
+    "cordova-plugin-headercolor": {
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    },
+    "cordova-plugin-android-window-background": {
+      "WINDOW_BACKGROUND_COLOR": "#ffffff",
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    }
+  },
+  "dependent_plugins": {}
+}

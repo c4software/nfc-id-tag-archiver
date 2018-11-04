@@ -6,5 +6,7 @@ module.exports = {
       localeDir: "i18n",
       enableInSFC: false
     }
-  }
+  },
+  baseUrl: "",
+  outputDir: "cordova_app/www"
 };
