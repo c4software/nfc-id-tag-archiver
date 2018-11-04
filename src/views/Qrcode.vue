@@ -42,8 +42,8 @@ export default {
       cordova.plugins.barcodeScanner.scan(this.scan, this.error);
     },
     scan(data) {
-      if (data) {
-        this.items.push(data);
+      if (data.text && this.items.indexOf(data.text) === -1) {
+        this.items.push(data.text);
         this.scanSuccess = true;
       }
     },

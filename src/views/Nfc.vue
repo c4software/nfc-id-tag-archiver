@@ -101,8 +101,10 @@ export default {
       if (tag) {
         // eslint-disable-next-line
         let tagId = nfc.bytesToHexString(tag.id);
-        this.items.push(tagId);
-        this.scanSuccess = true;
+        if (this.items.indexOf(tagId) === -1) {
+          this.items.push(tagId);
+          this.scanSuccess = true;
+        }
       }
     }
   }
