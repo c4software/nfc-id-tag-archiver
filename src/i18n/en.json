@@ -10,6 +10,9 @@
   },
   "nfc": {
     "waiting": "Waiting for a tag",
-    "success": "The tag has been added to your history."
-  }
+    "success": "The tag has been added to your history.",
+    "disabled": "NFC is disabled",
+    "incompatible": "Your phone doesn't have an NFC chip."
+  },
+  "enable": "Enable"
 }

@@ -10,6 +10,9 @@
   },
   "nfc": {
     "waiting": "En attente de scan d'un nouveau tag",
-    "success": "Le tag à bien été ajouté dans votre historique."
-  }
+    "success": "Le tag à bien été ajouté dans votre historique.",
+    "disabled": "Le NFC semble actuellement désactivé",
+    "incompatible": "Votre mobile ne supporte pas le NFC."
+  },
+  "enable": "Activer"
 }
