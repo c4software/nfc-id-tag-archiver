@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
-        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
-    },
-    {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/layout_app_picker_list_item.xml.flat",
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/res/layout/app_picker_list_item.xml"
+    },
+    {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
     },
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/layout_encode.xml.flat",
