@@ -17,16 +17,14 @@ export default {
     };
   },
   watch: {
-    watch: {
-      items: function(values) {
-        localStorage.setItem("qrcodeScanHistory", JSON.stringify(values));
-      },
-      scanSuccess: function(state) {
-        if (state) {
-          setTimeout(() => {
-            this.scanSuccess = false;
-          }, 3000);
-        }
+    items: function(values) {
+      localStorage.setItem("qrcodeScanHistory", JSON.stringify(values));
+    },
+    scanSuccess: function(state) {
+      if (state) {
+        setTimeout(() => {
+          this.scanSuccess = false;
+        }, 3000);
       }
     }
   },
