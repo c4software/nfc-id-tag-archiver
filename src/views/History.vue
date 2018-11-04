@@ -1,5 +1,5 @@
 <template>
-    <v-container grid-list-md>
+    <v-container class="start" grid-list-md fill-height fluid align-start justify-start>
 
         <v-flex xs12>
             <v-data-table :headers="headers" :items="values" hide-actions class="elevation-1">
@@ -13,7 +13,7 @@
             <v-icon>delete</v-icon>
         </v-btn>
 
-        <confirmDialog v-model="showConfirm" title="Are you sure ?" text="Warning ! This action is irreversible" cancelText="Cancel" confirmText="Confirm" v-on:cancelAction="() => this.showConfirm = false" v-on:confirmAction="clear" />
+        <confirmDialog v-model="showConfirm" :title="$t('confirmTitle')" :text="$t('confirmText')" :cancelText="$t('no')" :confirmText="$t('yes')" v-on:cancelAction="() => this.showConfirm = false" v-on:confirmAction="clear" />
     </v-container>
 </template>
 <script>
@@ -60,3 +60,10 @@ export default {
   }
 };
 </script>
+
+<style>
+.start {
+  align-items: start !important;
+}
+</style>
+

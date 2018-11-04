@@ -15,5 +15,9 @@
     "disabled": "NFC is disabled",
     "incompatible": "Your phone doesn't have an NFC chip."
   },
-  "enable": "Enable"
+  "enable": "Enable",
+  "confirmTitle": "Are you sure ?",
+  "confirmText": "Warning ! This action is irreversible",
+  "yes": "Yes",
+  "no": "No"
 }

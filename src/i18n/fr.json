@@ -15,5 +15,9 @@
     "disabled": "Le NFC semble actuellement désactivé",
     "incompatible": "Votre mobile ne supporte pas le NFC."
   },
-  "enable": "Activer"
+  "enable": "Activer",
+  "confirmTitle": "Etes-vous sûr ?",
+  "confirmText": "Attention ! Cette action est irréversible",
+  "yes": "Oui",
+  "no": "Non"
 }
