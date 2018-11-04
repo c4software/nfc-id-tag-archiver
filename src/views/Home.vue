@@ -17,10 +17,6 @@
         <v-flex xs12>
           <v-btn flat block to="history" color="primary">{{$t('historyTitle')}}</v-btn>
         </v-flex>
-
-        <v-btn fab flat class="settingsAction">
-          <v-icon>settings</v-icon>
-        </v-btn>
       </v-layout>
     </div>
   </v-container>

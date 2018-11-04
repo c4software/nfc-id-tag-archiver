@@ -9,18 +9,35 @@
             </v-data-table>
         </v-flex>
 
+        <v-btn v-if="this.values.length > 0" fab flat class="floatAction" @click="showConfirm = true">
+            <v-icon>delete</v-icon>
+        </v-btn>
+
+        <confirmDialog v-model="showConfirm" title="Are you sure ?" text="Warning ! This action is irreversible" cancelText="Cancel" confirmText="Confirm" v-on:cancelAction="() => this.showConfirm = false" v-on:confirmAction="clear" />
     </v-container>
 </template>
 <script>
+import confirmDialog from "vuetify-vuejs-confirmdialog/src/component/VuetifyConfirm.vue";
+
 export default {
   name: "History",
+  components: { confirmDialog },
   data() {
     return {
+      showConfirm: false,
       mode: "any",
       headers: [{ text: "Tag", value: "tag", sortable: false }],
       nfc: JSON.parse(localStorage.getItem("nfcScanHistory") || "[]"),
       qrcode: JSON.parse(localStorage.getItem("qrcodeScanHistory") || "[]")
     };
+  },
+  watch: {
+    nfc: function(values) {
+      localStorage.setItem("nfcScanHistory", JSON.stringify(values));
+    },
+    qrcode: function(values) {
+      localStorage.setItem("qrcodeScanHistory", JSON.stringify(values));
+    }
   },
   computed: {
     values() {
@@ -32,6 +49,13 @@ export default {
         default:
           return this.nfc.concat(this.qrcode);
       }
+    }
+  },
+  methods: {
+    clear() {
+      this.nfc = [];
+      this.qrcode = [];
+      this.showConfirm = false;
     }
   }
 };
