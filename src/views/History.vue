@@ -9,22 +9,17 @@
             </v-data-table>
         </v-flex>
 
-        <v-btn v-if="this.values.length > 0" fab flat class="floatAction" @click="showConfirm = true">
+        <v-btn v-if="this.values.length > 0" fab flat class="floatAction" @click="requestClear">
             <v-icon>delete</v-icon>
         </v-btn>
 
-        <confirmDialog v-model="showConfirm" :title="$t('confirmTitle')" :text="$t('confirmText')" :cancelText="$t('no')" :confirmText="$t('yes')" v-on:cancelAction="() => this.showConfirm = false" v-on:confirmAction="clear" />
     </v-container>
 </template>
 <script>
-import confirmDialog from "vuetify-vuejs-confirmdialog/src/component/VuetifyConfirm.vue";
-
 export default {
   name: "History",
-  components: { confirmDialog },
   data() {
     return {
-      showConfirm: false,
       mode: "any",
       headers: [{ text: "Tag", value: "tag", sortable: false }],
       nfc: JSON.parse(localStorage.getItem("nfcScanHistory") || "[]"),
@@ -52,10 +47,20 @@ export default {
     }
   },
   methods: {
-    clear() {
-      this.nfc = [];
-      this.qrcode = [];
-      this.showConfirm = false;
+    requestClear() {
+      this.$vuetifyConfirmDialog
+        .open(
+          this.$t("confirmTitle"),
+          this.$t("confirmText"),
+          this.$t("no"),
+          this.$t("yes")
+        )
+        .then(state => {
+          if (state) {
+            this.nfc = [];
+            this.qrcode = [];
+          }
+        });
     }
   }
 };
