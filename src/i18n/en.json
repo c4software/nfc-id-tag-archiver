@@ -6,7 +6,8 @@
   "historyTitle": "History",
   "qrcode": {
     "scan": "Scan a QRCode",
-    "success": "The QRCode has been added to your history"
+    "success": "The QRCode has been added to your history",
+    "error": "Error while reading your QRCode"
   },
   "nfc": {
     "waiting": "Waiting for a tag",

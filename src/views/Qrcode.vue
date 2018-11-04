@@ -3,7 +3,7 @@
     <v-btn @click="doScan" color="primary">{{$t('qrcode.scan')}}</v-btn>
 
     <v-alert class="bottomToast" transition="fade-transition" :value="scanSuccess" type="success">{{$t('qrcode.success')}}</v-alert>
-
+    <v-alert class="bottomToast" transition="fade-transition" :value="scanError" type="error">{{$t('qrcode.error')}}</v-alert>
   </v-container>
 </template>
 
@@ -13,6 +13,7 @@ export default {
   data() {
     return {
       scanSuccess: false,
+      scanError: false,
       items: JSON.parse(localStorage.getItem("qrcodeScanHistory") || "[]")
     };
   },
@@ -26,14 +27,28 @@ export default {
           this.scanSuccess = false;
         }, 3000);
       }
+    },
+    scanError: function(state) {
+      if (state) {
+        setTimeout(() => {
+          this.scanSuccess = false;
+        }, 3000);
+      }
     }
   },
   methods: {
-    doScan(data) {
+    doScan() {
+      // eslint-disable-next-line
+      cordova.plugins.barcodeScanner.scan(this.scan, this.error);
+    },
+    scan(data) {
       if (data) {
         this.items.push(data);
         this.scanSuccess = true;
       }
+    },
+    error() {
+      this.scanError = true;
     }
   }
 };
