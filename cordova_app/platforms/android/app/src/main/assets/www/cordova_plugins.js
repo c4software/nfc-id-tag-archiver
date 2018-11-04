@@ -21,6 +21,14 @@ module.exports = [
     "clobbers": [
       "cordova.plugins.headerColor"
     ]
+  },
+  {
+    "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
+    "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
+    "pluginId": "phonegap-plugin-barcodescanner",
+    "clobbers": [
+      "cordova.plugins.barcodeScanner"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -30,7 +38,8 @@ module.exports.metadata =
   "phonegap-nfc": "1.0.3",
   "cordova-plugin-statusbar": "2.4.2",
   "cordova-plugin-headercolor": "1.0",
-  "cordova-plugin-android-window-background": "1.0.1"
+  "cordova-plugin-android-window-background": "1.0.1",
+  "phonegap-plugin-barcodescanner": "8.0.0"
 };
 // BOTTOM OF METADATA
 });

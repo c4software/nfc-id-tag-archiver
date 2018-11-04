@@ -16,6 +16,9 @@
         <param name="android-package" value="tomloprod.HeaderColor" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -39,6 +42,6 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#313AA5" />
-    <preference name="HeaderColor" value="#313AA5" />
+    <preference name="StatusBarBackgroundColor" value="#1976D2" />
+    <preference name="HeaderColor" value="#1976D2" />
 </widget>

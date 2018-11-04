@@ -23,6 +23,10 @@
             {
               "xml": "<feature name=\"HeaderColor\"><param name=\"android-package\" value=\"tomloprod.HeaderColor\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"BarcodeScanner\"><param name=\"android-package\" value=\"com.phonegap.plugins.barcodescanner.BarcodeScanner\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -36,6 +40,18 @@
             },
             {
               "xml": "<uses-feature android:name=\"android.hardware.nfc\" android:required=\"false\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.CAMERA\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.FLASHLIGHT\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-feature android:name=\"android.hardware.camera\" android:required=\"true\" />",
               "count": 1
             }
           ],
@@ -65,6 +81,16 @@
                 "android:theme": "@style/CordovaWindowBackgroundTheme",
                 "android:windowSoftInputMode": "adjustResize"
               }
+            }
+          ],
+          "/manifest/application": [
+            {
+              "xml": "<activity android:clearTaskOnLaunch=\"true\" android:configChanges=\"orientation|keyboardHidden|screenSize\" android:exported=\"false\" android:name=\"com.google.zxing.client.android.CaptureActivity\" android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\" android:windowSoftInputMode=\"stateAlwaysHidden\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:label=\"Share\" android:name=\"com.google.zxing.client.android.encode.EncodeActivity\" />",
+              "count": 1
             }
           ]
         }
@@ -107,6 +133,10 @@
     "cordova-plugin-android-window-background": {
       "WINDOW_BACKGROUND_COLOR": "#ffffff",
       "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
     }
   },
   "dependent_plugins": {},
@@ -132,6 +162,14 @@
       "clobbers": [
         "cordova.plugins.headerColor"
       ]
+    },
+    {
+      "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
+      "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
+      "pluginId": "phonegap-plugin-barcodescanner",
+      "clobbers": [
+        "cordova.plugins.barcodeScanner"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -139,6 +177,7 @@
     "phonegap-nfc": "1.0.3",
     "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-headercolor": "1.0",
-    "cordova-plugin-android-window-background": "1.0.1"
+    "cordova-plugin-android-window-background": "1.0.1",
+    "phonegap-plugin-barcodescanner": "8.0.0"
   }
 }

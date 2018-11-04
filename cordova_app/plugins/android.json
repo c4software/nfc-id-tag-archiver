@@ -22,6 +22,10 @@
     "cordova-plugin-android-window-background": {
       "WINDOW_BACKGROUND_COLOR": "#ffffff",
       "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
     }
   },
   "dependent_plugins": {}

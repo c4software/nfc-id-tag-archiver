@@ -1,6 +1,6 @@
 <template>
   <v-container align-center justify-center grid-list-md fill-height>
-    <v-btn @click="doScan" color="primary">Scan a tag</v-btn>
+    <v-btn @click="doScan" color="primary">{{$t('qrcode.scan')}}</v-btn>
 
     <v-alert class="bottomToast" transition="fade-transition" :value="scanSuccess" type="success">{{$t('qrcode.success')}}</v-alert>
 
