@@ -26,7 +26,14 @@
     "phonegap-plugin-barcodescanner": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "tag.archiver.brosseau.com"
+    }
+  }
 }

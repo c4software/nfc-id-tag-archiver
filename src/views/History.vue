@@ -1,19 +1,30 @@
 <template>
-    <v-container class="start" grid-list-md fill-height fluid align-start justify-start>
+  <v-container class="start" grid-list-md fill-height fluid align-start justify-start>
 
-        <v-flex xs12>
-            <v-data-table :headers="headers" :items="values" hide-actions class="elevation-1">
-                <template slot="items" slot-scope="props">
-                    <td>{{ props.item }}</td>
-                </template>
-            </v-data-table>
-        </v-flex>
+    <v-flex xs12>
+      <v-card>
+        <v-card-title class="pa-1" v-if="this.values.length > 0">
+          <v-spacer />
+          <v-btn icon @click="exportData">
+            <v-icon>save_alt</v-icon>
+          </v-btn>
+          <v-btn icon @click="requestClear">
+            <v-icon color="red">delete</v-icon>
+          </v-btn>
 
-        <v-btn v-if="this.values.length > 0" fab flat class="floatAction" @click="requestClear">
-            <v-icon>delete</v-icon>
-        </v-btn>
+        </v-card-title>
+        <v-card-text class="pa-1">
+          <v-data-table :headers="headers" :items="values" hide-actions>
+            <template slot="items" slot-scope="props">
+              <td>{{ props.item }}</td>
+            </template>
+          </v-data-table>
+        </v-card-text>
 
-    </v-container>
+      </v-card>
+    </v-flex>
+
+  </v-container>
 </template>
 <script>
 export default {
@@ -47,6 +58,7 @@ export default {
     }
   },
   methods: {
+    exportData() {},
     requestClear() {
       this.$vuetifyConfirmDialog
         .open(
