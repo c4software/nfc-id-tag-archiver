@@ -69,13 +69,15 @@ ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/pl
 MERGED from [:barcodescanner-release-2.1.5:] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/AndroidManifest.xml:11:5-12:19
 MERGED from [:barcodescanner-release-2.1.5:] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/AndroidManifest.xml:11:5-12:19
 	android:supportsRtl
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:167-193
 	android:label
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:88-120
 	android:hardwareAccelerated
 		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:roundIcon
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:121-166
 	android:icon
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:53-87
 activity#tag.archiver.brosseau.com.MainActivity
 ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
 	android:label

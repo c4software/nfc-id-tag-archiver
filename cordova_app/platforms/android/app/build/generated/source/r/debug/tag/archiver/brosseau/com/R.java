@@ -383,7 +383,9 @@ public final class R {
     public static final int history=0x7f0a0002;
   }
   public static final class mipmap {
-    public static final int icon=0x7f0b0000;
+    public static final int ic_launcher=0x7f0b0000;
+    public static final int ic_launcher_round=0x7f0b0001;
+    public static final int icon=0x7f0b0002;
   }
   public static final class raw {
     public static final int beep=0x7f0c0000;

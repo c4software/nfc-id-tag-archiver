@@ -76,8 +76,16 @@
         "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
     },
     {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
@@ -114,6 +122,10 @@
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
@@ -192,6 +204,10 @@
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/res/drawable-xhdpi/launcher_icon.png"
     },
     {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2d30302c9be9f67d8f2f766570b04033/res/layout/notification_template_big_media_narrow.xml"
     },
@@ -240,12 +256,20 @@
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/layout-v21/notification_template_icon_group.xml"
     },
     {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/layout_capture.xml.flat",
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/res/layout/capture.xml"
+    },
+    {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
@@ -288,6 +312,10 @@
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/layout-v21/notification_template_custom_big.xml"
     },
     {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/layout-v16/notification_template_custom_big.xml"
     },
@@ -298,6 +326,10 @@
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
         "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
@@ -320,12 +352,16 @@
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/res/layout/search_book_contents_list_item.xml"
     },
     {
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
         "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
-        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
+        "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
