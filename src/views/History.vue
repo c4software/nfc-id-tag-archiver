@@ -61,7 +61,7 @@
       exportData() {
         const exportData = btoa(this.nfc.concat(this.qrcode).join("\n"));
         if (window.plugins && window.plugins.socialsharing) {
-          window.plugins.socialsharing.share(null, 'Android filename', 'data:text/plain;base64,' + exportData, null)
+          window.plugins.socialsharing.share(null, 'export', 'data:text/csv;base64,' + exportData, null)
         } else {
           console.error("Working only with Cordova")
         }
