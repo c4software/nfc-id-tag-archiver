@@ -85,6 +85,21 @@
             ]
         },
         {
+            "outputFile": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat",
             "map": [
                 {
@@ -119,21 +134,6 @@
                         "startOffsets": "8765",
                         "endColumns": "100",
                         "endOffsets": "8861"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a90b3e26d071f9ac6a62baf84d49cd94/res/values-hr/values-hr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
                     }
                 }
             ]

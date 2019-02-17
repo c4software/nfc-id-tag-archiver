@@ -1,9 +1,20 @@
 -- Merging decision tree log ---
+provider#nl.xservices.plugins.FileProvider
+INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:19:9-21:20
+	android:grantUriPermissions
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:19:100-134
+	android:authorities
+		INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:19:19-74
+	android:exported
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:19:75-99
+	android:name
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:19:135-183
 manifest
-ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
 MERGED from [:barcodescanner-release-2.1.5:] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/c1bb33a67b71d6be45b9f1227261658e/AndroidManifest.xml:17:1-22:12
 MERGED from [:CordovaLib] /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
@@ -16,9 +27,9 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/valentinbrosseau/.grad
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/969f69c81e03e6b8e340751b1f9a98c3/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/34b3f870a030bd366627e143a6eefb17/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/52f494be1b640ef63b11c8f62b9c1c9a/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:2:102-137
 		INJECTED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml
@@ -54,7 +65,7 @@ ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/pl
 	android:name
 		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:5-14:19
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [:barcodescanner-release-2.1.5:] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/AndroidManifest.xml:11:5-12:19
 MERGED from [:barcodescanner-release-2.1.5:] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/AndroidManifest.xml:11:5-12:19
 	android:supportsRtl
@@ -111,8 +122,20 @@ ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/pl
 		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:13:19-40
 	android:name
 		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:13:41-109
+receiver#nl.xservices.plugins.ShareChooserPendingIntent
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:14:9-18:20
+	android:enabled
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:14:19-41
+	android:name
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:14:42-103
+intent-filter#android.intent.action.SEND
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:15:13-17:29
+action#android.intent.action.SEND
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:16:25-66
 uses-sdk
-ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:15:5-74
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:23:5-74
 MERGED from [:barcodescanner-release-2.1.5:] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/AndroidManifest.xml:7:5-9:41
 MERGED from [:barcodescanner-release-2.1.5:] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/4dd68eab692ff16c156a522799c5e8bc/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:27.1.1] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/c1bb33a67b71d6be45b9f1227261658e/AndroidManifest.xml:20:5-44
@@ -138,30 +161,40 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/valentinbrosseau/.gr
 MERGED from [android.arch.core:runtime:1.1.0] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/52f494be1b640ef63b11c8f62b9c1c9a/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/valentinbrosseau/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/52f494be1b640ef63b11c8f62b9c1c9a/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:15:42-71
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:23:42-71
 	android:minSdkVersion
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:15:15-41
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:23:15-41
 uses-permission#android.permission.NFC
-ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:16:5-62
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:24:5-62
 	android:name
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:16:22-59
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:24:22-59
 uses-feature#android.hardware.nfc
-ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:17:5-82
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:25:5-82
 	android:required
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:17:55-79
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:25:55-79
 	android:name
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:17:19-54
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:25:19-54
 uses-permission#android.permission.CAMERA
-ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:18:5-65
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:26:5-65
 	android:name
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:18:22-62
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:26:22-62
 uses-permission#android.permission.FLASHLIGHT
-ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:19:5-69
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:27:5-69
 	android:name
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:19:22-66
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:27:22-66
 uses-feature#android.hardware.camera
-ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:20:5-84
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:28:5-84
 	android:required
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:20:58-81
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:28:58-81
 	android:name
-		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:20:19-57
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:28:19-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:29:22-78
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:20:13-115
+	android:resource
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:20:75-112
+	android:name
+		ADDED from /Users/valentinbrosseau/javascript/nfc-id-tag-archiver/cordova_app/platforms/android/app/src/main/AndroidManifest.xml:20:24-74

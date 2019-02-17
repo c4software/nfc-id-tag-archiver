@@ -7,6 +7,6 @@ module.exports = {
       enableInSFC: false
     }
   },
-  baseUrl: "",
+  publicPath: "",
   outputDir: "cordova_app/www"
 };
