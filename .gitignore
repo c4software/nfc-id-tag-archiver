@@ -1,6 +1,11 @@
+file.keystore
 .DS_Store
 node_modules
 /dist
+
+# Cordova
+cordova_app/platforms/android
+cordova_app/www/
 
 # local env files
 .env.local
