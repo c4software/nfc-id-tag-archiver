@@ -6,7 +6,7 @@
             {{$t('qrcode.success')}}
         </v-alert>
         <v-alert class="bottomToast" transition="fade-transition" :value="scanError" type="error">
-            {{$t('qrcode.error')}}
+            {{scanErrorReason}}
         </v-alert>
     </v-container>
 </template>
@@ -19,6 +19,7 @@
       return {
         scanSuccess: false,
         scanError: false,
+        scanErrorReason: undefined,
         items: JSON.parse(localStorage.getItem("qrcodeScanHistory") || "[]")
       };
     },
@@ -38,6 +39,8 @@
           setTimeout(() => {
             this.scanSuccess = false;
           }, 3000);
+        } else {
+          this.scanErrorReason = this.$t('qrcode.error');
         }
       }
     },
@@ -50,6 +53,9 @@
         if (data.text && this.items.indexOf(data.text) === -1) {
           this.items.push(data.text);
           this.scanSuccess = true;
+        } else {
+          this.scanErrorReason = this.$t('qrcode.alreadyScan')
+          this.scanError = true;
         }
       },
       error() {

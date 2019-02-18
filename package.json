@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "cordova_build": "npm run build && cd cordova_app && cordova build && cd ../",
     "cordova_run": "npm run build && cd cordova_app && cordova run && cd ../",
-    "cordova_build_release": "npm run build && cd cordova_app && cordova build android --release -- --keystore=../file.keystore --alias=nfc-id-tag-archiver --storePassword='INSERT_PASS_HERE' --password='INSERT_PASS_HERE' && cd ../",
+    "cordova_build_release": "npm run build && cd cordova_app && cordova build android --release -- --keystore=../file.keystore --alias=nfc-id-tag-archiver --storePassword=$SIGN_PASSWORD --password=$SIGN_PASSWORD && cd ../",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

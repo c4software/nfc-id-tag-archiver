@@ -7,13 +7,15 @@
   "qrcode": {
     "scan": "Scanner un QRCode",
     "success": "Le QRCode a été ajouté à votre historique",
-    "error": "Lecture du QRCode impossible"
+    "error": "Lecture du QRCode impossible",
+    "alreadyScan": "Vous avez déjà scanné ce QRCode"
   },
   "nfc": {
     "waiting": "En attente de scan d'un nouveau tag",
     "success": "Le tag a bien été ajouté dans votre historique.",
     "disabled": "Le NFC semble actuellement désactivé",
-    "incompatible": "Votre mobile ne supporte pas le NFC."
+    "incompatible": "Votre mobile ne supporte pas le NFC.",
+    "alreadyScan": "Vous avez déjà scanné ce tag"
   },
   "enable": "Activer",
   "confirmTitle": "Etes-vous sûr ?",
