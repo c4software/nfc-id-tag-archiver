@@ -2,6 +2,7 @@ file.keystore
 .DS_Store
 node_modules
 /dist
+build_production.sh
 
 # Cordova
 cordova_app/platforms/android
