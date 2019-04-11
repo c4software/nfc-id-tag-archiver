@@ -1,6 +1,6 @@
 {
-  "appTitle": "Archivage de tags",
-  "nfcTitle": "Nfc",
+  "appTitle": "Enregistrement de tags",
+  "nfcTitle": "NFC (Sans contact)",
   "qrcodeTitle": "QRcode",
   "settingsTitle": "Paramètres",
   "historyTitle": "Historique",
@@ -11,10 +11,10 @@
     "alreadyScan": "Vous avez déjà scanné ce QRCode"
   },
   "nfc": {
-    "waiting": "En attente de scan d'un nouveau tag",
+    "waiting": "En attente de scan",
     "success": "Le tag a bien été ajouté dans votre historique.",
     "disabled": "Le NFC semble actuellement désactivé",
-    "incompatible": "Votre mobile ne supporte pas le NFC.",
+    "incompatible": "Votre mobile ne supporte pas le NFC (Sans contact).",
     "alreadyScan": "Vous avez déjà scanné ce tag"
   },
   "enable": "Activer",
