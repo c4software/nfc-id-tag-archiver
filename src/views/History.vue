@@ -14,13 +14,13 @@
                 </v-card-title>
             </v-card>
             
-            <v-data-table class="elevation-1 mt-3" v-if="nfc.length > 0" :headers="headersNfc" :items="nfc.reverse()" hide-actions>
+            <v-data-table class="elevation-1 mt-3" v-if="nfc.length > 0" :headers="headersNfc" :items="nfc" hide-actions>
                 <template slot="items" slot-scope="props">
                     <td>{{ props.item }}</td>
                 </template>
             </v-data-table>
             
-            <v-data-table class="elevation-1 mt-3" v-if="qrcode.length > 0" :headers="headersQrCode" :items="qrcode.reverse()" hide-actions>
+            <v-data-table class="elevation-1 mt-3" v-if="qrcode.length > 0" :headers="headersQrCode" :items="qrcode" hide-actions>
                 <template slot="items" slot-scope="props">
                     <td>{{ props.item }}</td>
                 </template>
