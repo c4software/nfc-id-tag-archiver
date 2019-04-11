@@ -1,9 +1,10 @@
 {
   "appTitle": "Enregistrement de tags",
-  "nfcTitle": "NFC (Sans contact)",
+  "nfcTitle": "Sans Contact",
   "qrcodeTitle": "QRcode",
   "settingsTitle": "Paramètres",
   "historyTitle": "Historique",
+  "noHistory": "Aucun historique",
   "qrcode": {
     "scan": "Scanner un QRCode",
     "success": "Le QRCode a été ajouté à votre historique",

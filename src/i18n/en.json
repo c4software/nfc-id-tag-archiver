@@ -4,6 +4,7 @@
   "qrcodeTitle": "QRcode",
   "settingsTitle": "Settings",
   "historyTitle": "History",
+  "noHistory": "No history",
   "qrcode": {
     "scan": "Scan a QRCode",
     "success": "The QRCode has been added to your history",

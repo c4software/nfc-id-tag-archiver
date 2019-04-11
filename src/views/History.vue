@@ -2,8 +2,8 @@
     <v-container class="start" grid-list-md fill-height fluid align-start justify-start>
 
         <v-flex xs12>
-            <v-card>
-                <v-card-title class="pa-1" v-if="this.values.length > 0">
+            <v-card v-if="nfc.length > 0 || qrcode.length > 0">
+                <v-card-title class="pa-1">
                     <v-spacer/>
                     <v-btn icon @click="exportData">
                         <v-icon>save_alt</v-icon>
@@ -11,17 +11,26 @@
                     <v-btn icon @click="requestClear">
                         <v-icon color="red">delete</v-icon>
                     </v-btn>
-
                 </v-card-title>
-                <v-card-text class="pa-1">
-                    <v-data-table :headers="headers" :items="values" hide-actions>
-                        <template slot="items" slot-scope="props">
-                            <td>{{ props.item }}</td>
-                        </template>
-                    </v-data-table>
-                </v-card-text>
-
             </v-card>
+            
+            <v-data-table class="elevation-1 mt-3" v-if="nfc.length > 0" :headers="headersNfc" :items="nfc.reverse()" hide-actions>
+                <template slot="items" slot-scope="props">
+                    <td>{{ props.item }}</td>
+                </template>
+            </v-data-table>
+            
+            <v-data-table class="elevation-1 mt-3" v-if="qrcode.length > 0" :headers="headersQrCode" :items="qrcode.reverse()" hide-actions>
+                <template slot="items" slot-scope="props">
+                    <td>{{ props.item }}</td>
+                </template>
+            </v-data-table>
+
+
+            <div class="text-xs-center" v-else>
+                {{$t('noHistory')}}
+            </div>
+
         </v-flex>
 
     </v-container>
@@ -32,7 +41,8 @@
     data() {
       return {
         mode: "any",
-        headers: [{text: "Historique", value: "tag", sortable: false}],
+        headersQrCode: [{text: `${this.$t('historyTitle')} ${this.$t('qrcodeTitle')}`, value: "tag", sortable: false}],
+        headersNfc: [{text: `${this.$t('historyTitle')} ${this.$t('nfcTitle')}`, value: "tag", sortable: false}],
         nfc: JSON.parse(localStorage.getItem("nfcScanHistory") || "[]"),
         qrcode: JSON.parse(localStorage.getItem("qrcodeScanHistory") || "[]")
       };
@@ -43,18 +53,6 @@
       },
       qrcode: function (values) {
         localStorage.setItem("qrcodeScanHistory", JSON.stringify(values));
-      }
-    },
-    computed: {
-      values() {
-        switch (this.mode) {
-          case "qrcode":
-            return this.qrcode;
-          case "nfc":
-            return this.nfc;
-          default:
-            return this.nfc.concat(this.qrcode);
-        }
       }
     },
     methods: {
